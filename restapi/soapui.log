@@ -1,0 +1,106 @@
+2021-05-31 19:48:20,895 WARN  [SoapUI] Missing folder [C:\Users\AmritaSinghChopra\Desktop\HandsonRESTAPI\restapi\ext] for external libraries
+2021-05-31 19:48:21,114 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\AmritaSinghChopra\soapui-settings.xml]
+2021-05-31 19:48:23,408 INFO  [WsdlProject] Loaded project from [file:/C:/Users/AmritaSinghChopra/Desktop/HandsonRESTAPI/restapi/TEST2-soapui-project.xml]
+2021-05-31 19:48:23,860 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2021-05-31 19:48:23,862 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2021-05-31 19:48:23,866 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2021-05-31 19:48:23,868 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2021-05-31 19:48:23,869 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2021-05-31 19:48:23,872 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2021-05-31 19:48:23,883 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2021-05-31 19:48:23,883 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2021-05-31 19:48:23,981 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [RestAPIAssignment]
+2021-05-31 19:48:23,983 INFO  [SoapUITestCaseRunner] Running Project [RestAPIAssignment], runType = SEQUENTIAL
+2021-05-31 19:48:24,018 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_001]
+2021-05-31 19:48:24,028 INFO  [SoapUITestCaseRunner] running step [AccessToken]
+2021-05-31 19:48:25,824 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-05-31 19:48:25,827 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_001], time taken: 1532ms, status: FINISHED
+2021-05-31 19:48:25,830 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_002]
+2021-05-31 19:48:25,830 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2021-05-31 19:48:26,285 INFO  [log] {data={access_token=1f45b240dd8d974d11477775ad04759082dc8737, token_type=Bearer, expires_in=86400}, success=1, error=[]}
+2021-05-31 19:48:26,287 INFO  [log] 1f45b240dd8d974d11477775ad04759082dc8737
+2021-05-31 19:48:26,544 INFO  [log] Number of rows are 2 and Number of columns is 2
+2021-05-31 19:48:26,556 INFO  [log] upskills_admin
+2021-05-31 19:48:26,557 INFO  [log] Talent4$$
+2021-05-31 19:48:26,559 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-31 19:48:26,571 INFO  [SoapUITestCaseRunner] running step [Login]
+2021-05-31 19:48:32,308 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-05-31 19:48:32,308 INFO  [SoapUITestCaseRunner] running step [GetAdminDetails]
+2021-05-31 19:48:32,842 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-05-31 19:48:32,842 INFO  [SoapUITestCaseRunner] running step [LogOut]
+2021-05-31 19:48:33,371 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_002], time taken: 7512ms, status: FINISHED
+2021-05-31 19:48:33,380 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_003]
+2021-05-31 19:48:33,381 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2021-05-31 19:48:33,634 INFO  [log] Number of rows are 2 and Number of columns is 4
+2021-05-31 19:48:33,644 INFO  [log] firstname is amr
+2021-05-31 19:48:33,644 INFO  [log] lastname is sin
+2021-05-31 19:48:33,645 INFO  [log] email is amr43@gmail.com
+2021-05-31 19:48:33,646 INFO  [log] trackingnumber is TD_980
+2021-05-31 19:48:33,647 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-31 19:48:33,648 INFO  [SoapUITestCaseRunner] running step [AddCustomer]
+2021-05-31 19:48:34,174 INFO  [SoapUITestCaseRunner] running step [GetAllCustomerswithLimit]
+2021-05-31 19:48:34,864 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status FAILED
+2021-05-31 19:48:34,865 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response status code:403 is not in acceptable list of status codes
+2021-05-31 19:48:34,869 ERROR [SoapUITestCaseRunner] GetAllCustomerswithLimit failed, exporting to [C:\Users\AmritaSinghChopra\Desktop\HandsonRESTAPI\restapi\target/surefire-reports\ProjectReadyAPI-TC_003-GetAllCustomerswithLimit-0-FAILED.txt]
+2021-05-31 19:48:34,876 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_003], time taken: 1417ms, status: FAILED
+2021-05-31 19:48:34,883 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [DataDriven]
+2021-05-31 19:48:34,884 INFO  [SoapUITestCaseRunner] running step [DataDrivenTesting]
+2021-05-31 19:48:35,045 INFO  [log] The number of rows are 6 and the number of columns are 1
+2021-05-31 19:48:35,045 INFO  [log] 2019-11-26
+2021-05-31 19:48:35,049 ERROR [SoapUI] An error occurred [The JSON input text should neither be null nor empty.], see error log for details
+2021-05-31 19:48:35,057 ERROR [errorlog] java.lang.IllegalArgumentException: The JSON input text should neither be null nor empty.
+java.lang.IllegalArgumentException: The JSON input text should neither be null nor empty.
+	at groovy.json.JsonSlurper.parseText(JsonSlurper.java:56)
+	at groovy.json.JsonSlurper$parseText.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at Script1.run(Script1.groovy:22)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:100)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:154)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:239)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:52)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:152)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-31 19:48:35,182 ERROR [SoapUITestCaseRunner] DataDrivenTesting failed, exporting to [C:\Users\AmritaSinghChopra\Desktop\HandsonRESTAPI\restapi\target/surefire-reports\ProjectReadyAPI-DataDriven-DataDrivenTesting-0-FAILED.txt]
+2021-05-31 19:48:35,186 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [DataDriven], time taken: 296ms, status: FAILED
+2021-05-31 19:48:35,192 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_004_SOAPUI]
+2021-05-31 19:48:35,193 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-31 19:48:35,195 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2021-05-31 19:48:35,199 INFO  [SoapUITestCaseRunner] running step [REST Request]
+2021-05-31 19:48:35,641 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status FAILED
+2021-05-31 19:48:35,641 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response status code:403 is not in acceptable list of status codes
+2021-05-31 19:48:35,642 ERROR [SoapUITestCaseRunner] REST Request failed, exporting to [C:\Users\AmritaSinghChopra\Desktop\HandsonRESTAPI\restapi\target/surefire-reports\ProjectReadyAPI-TC_004_SOAPUI-REST_Request-0-FAILED.txt]
+2021-05-31 19:48:35,646 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_004_SOAPUI], time taken: 438ms, status: FAILED
+2021-05-31 19:48:35,647 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_005]
+2021-05-31 19:48:35,647 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-31 19:48:35,649 INFO  [SoapUITestCaseRunner] running step [AddCustomer]
+2021-05-31 19:48:36,145 INFO  [SoapUITestCaseRunner] running step [GetAllCustomersAddedFrom]
+2021-05-31 19:48:36,634 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status FAILED
+2021-05-31 19:48:36,634 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response status code:403 is not in acceptable list of status codes
+2021-05-31 19:48:36,635 ERROR [SoapUITestCaseRunner] GetAllCustomersAddedFrom failed, exporting to [C:\Users\AmritaSinghChopra\Desktop\HandsonRESTAPI\restapi\target/surefire-reports\ProjectReadyAPI-TC_005-GetAllCustomersAddedFrom-0-FAILED.txt]
+2021-05-31 19:48:36,637 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_005], time taken: 956ms, status: FAILED
+2021-05-31 19:48:36,638 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC005_1]
+2021-05-31 19:48:36,638 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2021-05-31 19:48:36,798 INFO  [log] Number of rows are 2 and Number of columns is 4
+2021-05-31 19:48:36,799 INFO  [log] firstname is sandy1
+2021-05-31 19:48:36,801 INFO  [log] lastname is sandy2
+2021-05-31 19:48:36,809 INFO  [log] email is sanamr@ibm.com
+2021-05-31 19:48:36,809 INFO  [log] trackingnumber is TD_987
+2021-05-31 19:48:36,813 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_005]
+2021-05-31 19:48:36,813 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-31 19:48:36,814 INFO  [SoapUITestCaseRunner] running step [AddCustomer]
+2021-05-31 19:48:37,220 INFO  [SoapUITestCaseRunner] running step [GetAllCustomersAddedFrom]
+2021-05-31 19:48:37,698 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status FAILED
+2021-05-31 19:48:37,698 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response status code:403 is not in acceptable list of status codes
+2021-05-31 19:48:37,699 ERROR [SoapUITestCaseRunner] GetAllCustomersAddedFrom failed, exporting to [C:\Users\AmritaSinghChopra\Desktop\HandsonRESTAPI\restapi\target/surefire-reports\ProjectReadyAPI-TC_005-GetAllCustomersAddedFrom-0-FAILED.txt]
+2021-05-31 19:48:37,701 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_005], time taken: 874ms, status: FAILED
+2021-05-31 19:48:37,713 INFO  [log] Total Number of Customers added 3
+2021-05-31 19:48:37,714 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC005_1], time taken: 1073ms, status: FINISHED
+2021-05-31 19:48:37,714 INFO  [SoapUITestCaseRunner] Project [RestAPIAssignment] finished with status [FAILED] in 13725ms

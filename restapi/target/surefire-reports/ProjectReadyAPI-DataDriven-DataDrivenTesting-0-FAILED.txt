@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 296
+Size: 0
+Timestamp: Mon May 31 19:48:34 IST 2021
+TestStep: DataDrivenTesting
+Error:java.lang.IllegalArgumentException: The JSON input text should neither be null nor empty.
+
+----------------- Messages ------------------------------
+java.lang.IllegalArgumentException: The JSON input text should neither be null nor empty.
+error at line: 22

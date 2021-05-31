@@ -1,0 +1,18 @@
+2021-05-31 19:48:26,285 INFO  [log] {data={access_token=1f45b240dd8d974d11477775ad04759082dc8737, token_type=Bearer, expires_in=86400}, success=1, error=[]}
+2021-05-31 19:48:26,287 INFO  [log] 1f45b240dd8d974d11477775ad04759082dc8737
+2021-05-31 19:48:26,544 INFO  [log] Number of rows are 2 and Number of columns is 2
+2021-05-31 19:48:26,556 INFO  [log] upskills_admin
+2021-05-31 19:48:26,557 INFO  [log] Talent4$$
+2021-05-31 19:48:33,634 INFO  [log] Number of rows are 2 and Number of columns is 4
+2021-05-31 19:48:33,644 INFO  [log] firstname is amr
+2021-05-31 19:48:33,644 INFO  [log] lastname is sin
+2021-05-31 19:48:33,645 INFO  [log] email is amr43@gmail.com
+2021-05-31 19:48:33,646 INFO  [log] trackingnumber is TD_980
+2021-05-31 19:48:35,045 INFO  [log] The number of rows are 6 and the number of columns are 1
+2021-05-31 19:48:35,045 INFO  [log] 2019-11-26
+2021-05-31 19:48:36,798 INFO  [log] Number of rows are 2 and Number of columns is 4
+2021-05-31 19:48:36,799 INFO  [log] firstname is sandy1
+2021-05-31 19:48:36,801 INFO  [log] lastname is sandy2
+2021-05-31 19:48:36,809 INFO  [log] email is sanamr@ibm.com
+2021-05-31 19:48:36,809 INFO  [log] trackingnumber is TD_987
+2021-05-31 19:48:37,713 INFO  [log] Total Number of Customers added 3
